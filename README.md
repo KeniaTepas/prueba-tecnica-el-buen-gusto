@@ -102,7 +102,7 @@ pip install pandas numpy matplotlib seaborn jupyter ipykernel
 jupyter notebook
 ```
 
-3. Se abrirá en el navegador. Navega a:
+3. Se abrirá en el navegador con la dirección http://localhost:8888/tree. Navega a:
 ```
 notebooks/analisis_exploratorio.ipynb
 ```
