@@ -103,7 +103,7 @@ notebooks/analisis_exploratorio.ipynb
 
 1. Instala las dependencias:
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter ipykernel
+pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost lightgbm statsmodels prophet joblib jupyter ipykernel
 ```
 
 2. Ejecuta Jupyter:
