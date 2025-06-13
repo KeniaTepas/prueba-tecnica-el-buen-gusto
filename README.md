@@ -33,12 +33,20 @@ prueba-tecnica-el-buen-gusto/
 | numpy       | 2.2.4     | Cálculos numéricos                             |
 | matplotlib  | 3.8.3     | Gráficos y visualizaciones 2D                  |
 | seaborn     | 0.13.2    | Gráficos estadísticos avanzados                |
+| plotly      | 5.15.0    | Visualización interactiva y gráfica avanzada   |
+| scikit-learn| 1.2.2     | Modelos de machine learning                    |
+| xgboost     | 1.7.5     | Algoritmo de boosting para regresión y clasificación|
+| lightgb     | 3.3.5     | Algoritmo de boosting eficiente y rápido       |
+| statsmodels | 0.14.0    | Modelos estadísticos y análisis de series temporales|
+| prophet     | 1.1.2     | Modelado de series temporales con forecasting  |
+| joblib      | 1.2.0     |Serialización y almacenamiento de objetos       |
 | jupyter     | 1.1.1     | Ejecución de notebooks interactivos            |
 | ipykernel   | 6.29.5    | Kernel para ejecutar Python dentro de Jupyter  |
 
 Instalación rápida:
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter ipykernel
+pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost lightgbm statsmodels prophet joblib jupyter ipykernel
+
 ```
 
 ---
@@ -69,7 +77,8 @@ filename = '../data/ventas_licorera.csv'
 
 1. Desde la raíz del proyecto, instala dependencias:
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter ipykernel
+pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost lightgbm statsmodels prophet joblib jupyter ipykernel
+
 ```
 
 2. O bien, usa el archivo `requirements.txt`:
