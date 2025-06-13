@@ -27,21 +27,21 @@ prueba-tecnica-el-buen-gusto/
 
 ## 📦 Librerías / Paquetes Utilizados
 
-| Paquete     | Versión   | Descripción                                     |
-|-------------|-----------|-------------------------------------------------|
-| pandas      | 2.2.3     | Manipulación de datos tabulares                |
-| numpy       | 2.2.4     | Cálculos numéricos                             |
-| matplotlib  | 3.8.3     | Gráficos y visualizaciones 2D                  |
-| seaborn     | 0.13.2    | Gráficos estadísticos avanzados                |
-| plotly      | 5.15.0    | Visualización interactiva y gráfica avanzada   |
-| scikit-learn| 1.2.2     | Modelos de machine learning                    |
-| xgboost     | 1.7.5     | Algoritmo de boosting para regresión y clasificación|
-| lightgb     | 3.3.5     | Algoritmo de boosting eficiente y rápido       |
-| statsmodels | 0.14.0    | Modelos estadísticos y análisis de series temporales|
-| prophet     | 1.1.2     | Modelado de series temporales con forecasting  |
-| joblib      | 1.2.0     |Serialización y almacenamiento de objetos       |
-| jupyter     | 1.1.1     | Ejecución de notebooks interactivos            |
-| ipykernel   | 6.29.5    | Kernel para ejecutar Python dentro de Jupyter  |
+| Paquete        | Versión  | Descripción                                               |
+|----------------|----------|-----------------------------------------------------------|
+| pandas         | 2.2.3    | Manipulación de datos tabulares                           |
+| numpy          | 2.2.4    | Cálculos numéricos                                        |
+| matplotlib     | 3.10.3   | Gráficos y visualizaciones 2D                             |
+| seaborn        | 0.13.2   | Gráficos estadísticos avanzados                           |
+| plotly         | 6.1.2    | Visualización interactiva y gráfica avanzada              |
+| scikit-learn   | 1.7.0    | Modelos de *machine learning*                             |
+| xgboost        | 3.0.2    | Algoritmo de *boosting* para regresión y clasificación    |
+| lightgbm       | 4.6.0    | Algoritmo de *boosting* eficiente y rápido                |
+| joblib         | 1.5.1    | Serialización y almacenamiento de objetos                 |
+| statsmodels    | 0.14.4   | Modelos estadísticos y análisis de series temporales      |
+| prophet        | 1.1.7    | Modelado de series temporales con pronóstico (*forecasting*) |
+| jupyter        | 1.1.1    | Ejecución de *notebooks* interactivos                     |
+| ipykernel      | 6.29.5   | Kernel para ejecutar Python dentro de Jupyter             |
 
 Instalación rápida:
 ```bash
@@ -159,9 +159,9 @@ notebooks/analisis_exploratorio.ipynb
 
 ## 🧠 Resumen del Enfoque
 
-Este proyecto resuelve el desafío de predecir ventas en una cadena de licorerías mediante análisis exploratorio, modelos de predicción y recomendaciones accionables. Se exploran las tendencias de venta por categoría, estacionalidad, promociones, eventos especiales, zonas geográficas y variables climáticas. Se identifican patrones que permiten anticipar la demanda y tomar decisiones más informadas.
+El proyecto desarrolló un sistema de predicción de ventas para la licorería "El Buen Gusto" utilizando un enfoque híbrido que combina análisis exploratorio avanzado (EDA) y modelado predictivo. Se priorizó la identificación de patrones clave como estacionalidad, impacto de promociones y variables externas (clima, ubicación de sucursales). Para el modelado, se implementaron y compararon tres enfoques: un modelo SARIMA para análisis puramente temporal, XGBoost para capturar relaciones no lineales entre múltiples predictores, y un ensemble stacking que combinó Random Forest con regresión lineal. El modelo final (XGBoost optimizado) logró un MAE de $41.14 diarios (8.7% del volumen promedio), destacando como variables críticas las promociones, días festivos y temperatura.
 
-La solución utiliza Python y librerías de código abierto en Jupyter Notebooks para mantener claridad y trazabilidad. El enfoque busca ser explicable para perfiles no técnicos, utilizando visualizaciones claras, conclusiones orientadas al negocio y modelos seleccionados según métricas como MAE, RMSE y MAPE. Todo esto se integra en un reporte ejecutivo conciso para la toma de decisiones.
+La solución se diseñó para ser accionable en el negocio, generando recomendaciones como paquetes estratégicos y ajustes de inventario basados en pronósticos climáticos. El proyecto incluyó limpieza de datos (20% registros de clientes incompletos), feature engineering y validación cruzada temporal para garantizar robustez. El modelo explica la variabilidad en ventas; se intregró visualizaciones interactivos para visualizar tendencias y escenarios clave que indica las indicaciones de la prueba técnica, permitiendo a la gerencia tomar decisiones con base en datos.
 
 ---
 
