@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 3. Abre el archivo:
 ```
-notebooks/analisis_exploratorio.ipynb
+notebooks/analisis_exploratorio.ipynb o notebooks/modelado_predictivo.ipynb
 ```
 
 4. Verifica que el kernel activo sea Python 3 (global).
@@ -113,7 +113,7 @@ jupyter notebook
 
 3. Se abrirá en el navegador con la dirección http://localhost:8888/tree. Navega a:
 ```
-notebooks/analisis_exploratorio.ipynb
+notebooks/analisis_exploratorio.ipynb o notebooks/modelado_predictivo.ipynb
 ```
 
 4. Verifica que el kernel diga: `Python 3 (ipykernel)`
@@ -148,7 +148,7 @@ pip install -r requirements.txt
 
 5. Abre y ejecuta el notebook normalmente:
 ```
-notebooks/analisis_exploratorio.ipynb
+notebooks/analisis_exploratorio.ipynb o notebooks/modelado_predictivo.ipynb
 ```
 
 6. Ejecuta celdas:
